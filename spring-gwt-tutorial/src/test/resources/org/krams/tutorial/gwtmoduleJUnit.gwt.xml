@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+  <!-- Inherit our applications main module.                      -->
+  <inherits name='org.krams.tutorial.gwtmodule' />
+
+  <!-- Specify the path to any remote services.                   -->
+  <servlet path="/gwtmodule/greet" class="org.krams.tutorial.server.GreetingServiceImpl" />
+
+</module>
