@@ -61,10 +61,10 @@
     
     <!--GWT SL-->
     <dependency> 
-	    <groupId>net.sf.gwt-widget</groupId> 
-	    <artifactId>gwt-sl</artifactId> 
-	    <version>${gwt-sl.version}</version> 
-	</dependency>
+       <groupId>net.sf.gwt-widget</groupId> 
+      <artifactId>gwt-sl</artifactId> 
+      <version>${gwt-sl.version}</version> 
+    </dependency>
 	
     <!-- Spring Core -->
     <dependency>
@@ -95,13 +95,13 @@
     	<type>jar</type>
     	<scope>compile</scope>
     </dependency>
-	<dependency>
-		<groupId>org.springframework</groupId>
-		<artifactId>spring-jdbc</artifactId>
-		<version>${spring.core.version}</version>
-		<type>jar</type>
-		<scope>compile</scope>
-	</dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-jdbc</artifactId>
+      <version>${spring.core.version}</version>
+      <type>jar</type>
+      <scope>compile</scope>
+    </dependency>
     <dependency>
     	<groupId>org.springframework</groupId>
     	<artifactId>spring-oxm</artifactId>
@@ -109,36 +109,36 @@
     	<type>jar</type>
     	<scope>compile</scope>
     </dependency>
-	<dependency>
-		<groupId>org.springframework</groupId>
-		<artifactId>spring-aspects</artifactId>
-		<version>${spring.core.version}</version>
-		<type>jar</type>
-		<scope>compile</scope>
-	</dependency>
+    <dependency>
+    	<groupId>org.springframework</groupId>
+    	<artifactId>spring-aspects</artifactId>
+    	<version>${spring.core.version}</version>
+    	<type>jar</type>
+    	<scope>compile</scope>
+    </dependency>
     
-	<!-- A seamless aspect-oriented extension to the Java programming language -->
-	<dependency>
-		    <groupId>org.aspectj</groupId>
-		    <artifactId>aspectjrt</artifactId>
-		    <version>${aspectj.version}</version>
-	</dependency>
+    <!-- A seamless aspect-oriented extension to the Java programming language -->
+    <dependency>
+    	<groupId>org.aspectj</groupId>
+    	<artifactId>aspectjrt</artifactId>
+    	<version>${aspectj.version}</version>
+    </dependency>
 	
-	<dependency>
-		<groupId>org.aspectj</groupId>
-		<artifactId>aspectjweaver</artifactId>
-		<version>${aspectj.version}</version>
-	</dependency>
+    <dependency>
+        <groupId>org.aspectj</groupId>
+        <artifactId>aspectjweaver</artifactId>
+        <version>${aspectj.version}</version>
+    </dependency>
 	
-	<!-- Cglib is a powerful, high performance and quality Code Generation Library, 
+    <!-- Cglib is a powerful, high performance and quality Code Generation Library, 
 	It is used to extend JAVA classes and implements interfaces at runtime.  -->
-	<dependency>
-		<groupId>cglib</groupId>
-		<artifactId>cglib-nodep</artifactId>
-		<version>${cglib.version}</version>
-		<type>jar</type>
-		<scope>compile</scope>
-	</dependency>
+    <dependency>
+        <groupId>cglib</groupId>
+        <artifactId>cglib-nodep</artifactId>
+        <version>${cglib.version}</version>
+        <type>jar</type>
+        <scope>compile</scope>
+    </dependency>
   </dependencies>
 
   <build>
